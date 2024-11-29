@@ -8,9 +8,7 @@ public class MIssingNumber{
              for (int i : arr) {
                  temp += i;
              }
- 
              int missNum = totalSum - temp;
-
              System.out.println(missNum + " " + temp + " " + totalSum + " " + len);
     }
 }
